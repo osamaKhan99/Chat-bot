@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const inputField = document.getElementById("input");
     inputField.addEventListener("keydown", (e) => {
@@ -20,10 +22,7 @@ function output(input) {
       .replace(/whats/g, "what is")
       .replace(/i am/g, "")
       .replace(/please /g, "")
-      .replace(/ please/g, "")
       .replace(/r u/g, "are you")
-      .replace(/lol/g, "lots of laugh")
-      .replace(/javabot/g, "")
   
     if (compare(prompts, replies, text)) { 
       product = compare(prompts, replies, text);

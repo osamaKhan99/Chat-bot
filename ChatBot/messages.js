@@ -1,7 +1,6 @@
 const profile = "https://github.com/osamaKhan99"
 const prompts = [
     ["hi", "hey", "hello", "good morning", "good afternoon"],
-    ["Assalam o Alaikum", "Salam", "Asalamoalaikum"],
     ["how are you","how are you javabot", "how is life", "how are things"],
     ["what are you doing", "what is going on", "what is up"],
     ["how old are you"],
@@ -26,14 +25,13 @@ const prompts = [
     ["no","not sure","maybe","no thanks"],
     [""],
     ["haha","ha","lol","hehe","funny","joke"],
-    ["thanks","thank you", "you saved my day"]
+    ["human", "man", "woman", "boy", "gril"]
   ]
   
   // Possible responses, in corresponding order
   
   const replies = [
     ["Hello!", "Hi!", "Hey!", "Hi there!","Howdy"],
-    ["Walaekum Assalam"]
     [
       "Fine... how are you?",
       "Pretty well, how are you?",
@@ -47,7 +45,7 @@ const prompts = [
     ],
     ["I am infinite"],
     ["I am just a bot", "I am a bot. What are you?"],
-    [`Osama Waseem made me ${profile}`],
+    ['Osama Waseem made me'],
     ["JavaBot"],
     ["I love you too", "Me too"],
     ["Have you ever felt bad?", "Glad to hear it"],
@@ -61,7 +59,7 @@ const prompts = [
     ["That's ok","I understand","What do you want to talk about?"],
     ["Please say something :("],
     ["Haha!","Good one!"],
-    ["pleasure is all mine", "you are welcome", "no problem", "anytime"]
+    ["hmm.. ok, tell me more about yourself"]
   ]
   
   // Random for any other user input
